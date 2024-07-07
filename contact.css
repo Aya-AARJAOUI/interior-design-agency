@@ -1,0 +1,132 @@
+@import url('https://fonts.cdnfonts.com/css/pilowlava');
+@import url('https://fonts.cdnfonts.com/css/libre-bodoni-2');
+@import url('https://fonts.cdnfonts.com/css/le-murmure');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    background-color: rgb(0, 0, 0);
+    scroll-behavior: smooth;
+  }
+
+  #header {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    top: 55%;
+    color: #f1f1f1;
+    padding: 20px;
+    list-style-type: none;
+    margin-top: 25px;
+   
+    position: relative;
+   
+  }
+  ul {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom:5px ;
+   
+  }
+  
+  li {
+    display: inline;
+   
+  }
+  li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-inline: 10px;
+    margin-inline: 50px;
+  }
+ul h1 a {
+  font-family: 'Pilowlava', sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  color: rgb(255, 254, 254);
+}
+ul h1  :hover {
+  color:  rgb(87, 59, 16);
+}
+li a:hover {
+  color:  rgb(87, 59, 16);
+}
+
+#btnSubmit{
+    appearance: none;
+    border: none;
+    background-color: rgb(128, 76, 76);
+    padding: 0.25rem 0.5rem;
+    color: white;
+    border-radius: 5px;
+    transition: all 250ms ease;
+    width: 100px;
+    height: 30px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+#ContactButton{
+    max-width: 25em;
+}
+
+#cont1{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 4%;
+    color:#ffffff;
+}
+#cont1 h1 {
+    font-size: 170px;
+    font-family: 'Le Murmure', sans-serif;
+    margin-left: 160px;
+}
+#cont1 p {
+    font-family: 'Libre Bodoni', sans-serif;
+    margin-left: 220px;
+    font-style: italic;
+}
+#cont2 {
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.col {
+    padding: 10px;
+    display: inline;
+}
+#FirstName, #LastName {
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+label {
+    color: rgb(255, 255, 255);
+    font-family: 'Libre Bodoni', sans-serif;
+}
+#Email {
+    width: 1104px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#Message {
+    width: 1104px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 35px;
+    border-radius: 10px;
+    border: none;
+}

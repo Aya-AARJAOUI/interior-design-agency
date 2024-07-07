@@ -1,0 +1,100 @@
+@import url('https://fonts.cdnfonts.com/css/pilowlava');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    background-color: rgb(29, 26, 22);
+    scroll-behavior: smooth;
+  }
+
+  /* header */
+  #header {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: #f1f1f1;
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the header is on top */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul h1 a {
+    font-family: 'Pilowlava', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}
+ul h1 a:hover {
+    color:  rgb(87, 59, 16);
+  }
+
+#container {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+  #container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+
+  }
+  
+  #container img {
+    width: fit-content;
+    height: 990px;
+    transition: width 2s, height 4s;
+  }
+ img:hover {
+    opacity: 0.5;
+    color:  rgb(87, 59, 16);
+  }
+ 
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  img:hover .overlay {
+    opacity: 0.5;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
